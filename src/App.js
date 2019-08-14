@@ -10,6 +10,7 @@ function App() {
       <main>
         <section>
           <h2>Section 1</h2>
+          <h2>Section 1</h2>
         </section>
       </main>
     </div>
