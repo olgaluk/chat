@@ -12,9 +12,6 @@ function App() {
           <h2>Section 1</h2>
         </section>
       </main>
-      <footer className="App-footer">
-        <h3>footer</h3>
-      </footer>
     </div>
   );
 }
