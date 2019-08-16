@@ -1,0 +1,8 @@
+.main-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #afdbd4;
+  background: linear-gradient(180deg, #afdbd493 15%, #a9e2d98c, #afdbd42c, #3be6ca5b, #afdbd457), url(../../../image/transparent-square-tiles.png) 100% 100% repeat repeat;
+  align-items: center;
+  text-align: center;
+}

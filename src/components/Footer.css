@@ -1,0 +1,14 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #afdbd4;
+  box-shadow: inset 0 3px 25px 0 #ffffffd5;
+  background-image: url(../image/light-wool.png);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
