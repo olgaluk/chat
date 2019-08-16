@@ -44,7 +44,7 @@ class MainPage extends Component {
   }
 
   setSocketHandlers() {
-    const socket = new WebSocket("wss://st-chat.shas.tel");
+    const socket = new WebSocket("wss://wssproxy.herokuapp.com/");
     if (socket) {
       this.setState({ socket });
       socket.onopen = () => {
