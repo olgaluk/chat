@@ -44,7 +44,7 @@ class MainPage extends Component {
   }
 
   setSocketHandlers() {
-    const socket = new WebSocket("ws://st-chat.shas.tel");
+    const socket = new WebSocket("wss://st-chat.shas.tel");
     if (socket) {
       this.setState({ socket });
       socket.onopen = () => {
